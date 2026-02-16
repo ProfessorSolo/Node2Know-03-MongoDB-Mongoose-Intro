@@ -1,0 +1,24 @@
+{
+  "name": "jsnodejs-pug-layouts",
+  "version": "1.0.0",
+  "description": "Pug Mixins and Layouts Demo",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Joshua Solomon",
+  "license": "Node2Know-LEARN-1.0",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "ejs": "^4.0.1",
+    "express": "^5.2.1",
+    "mongoose": "^9.2.1"
+  }
+}

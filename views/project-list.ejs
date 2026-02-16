@@ -1,0 +1,13 @@
+<h2>Project Gallery</h2>
+
+<% if (projects.length > 0) { %>
+<ul>
+  <% projects.forEach(project => { %>
+  <li>
+    <a href="/projects/<%= project.slug %>"> <%= project.title %> </a>
+  </li>
+  <% }) %>
+</ul>
+<% } else { %>
+<p>No projects found. Check back later!</p>
+<% } %>
